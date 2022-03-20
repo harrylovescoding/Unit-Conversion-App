@@ -135,15 +135,15 @@ input{
     color: #121212;
     cursor: pointer;
     display: inline-flex;
-    flex: 1 1 auto;
+    flex: 2 1 auto;
     font-family: Inter,sans-serif;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 500;
     justify-content: center;
     line-height: 1;
-    margin: 0;
+    margin: 2;
     outline: none;
-    padding: 0.7rem 0.3rem;
+    padding: 0.6rem 0.5rem;
     text-align: center;
     text-decoration: none;
     transition: box-shadow .2s,-webkit-box-shadow .2s;
@@ -154,5 +154,5 @@ input{
     touch-action: manipulation;
 }
 input:hover {
-    box-shadow: #00ffbf98 0 0 0 3px, transparent 0 0 0 0;
+    box-shadow: #00a87e 0 0 0 3px, transparent 0 0 0 0;
   }
